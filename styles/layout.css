@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+header{
+  padding: .5em;
+}
+
+h1 {
+  text-decoration: underline;
+  font-size: 2em;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  margin: 2em;
+  padding: 2em;
+}
+
+form {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#input-label {
+  font-weight: bold;
+  line-height: 2em;
+}
+
+input {
+  line-height: 2em;
+  font-size: 1.4em;
+  margin-top: .2em;
+  padding-left: .3em;
+  width: 100%; 
+}
+
+#error {
+  /* display: none; */
+  border-color: red;
+  color: red;
+  padding-bottom: 2em;
+  padding-top: .2em;
+  display: block;
+  text-align: right;  
+}
+
+#select-label {
+font-weight: bold;
+line-height: 2em;
+}
+
+#select-box {
+  line-height: 2em;
+  font-size: 1.4em;
+  margin-top: .2em;
+  padding-left: .3em;
+  width: 100%; 
+}
+
+p {
+  margin-top: 3em;
+  font-weight: bold;
+  line-height: 2em;
+  }
+main {
+  position: relative;
+}
+
+.sprite{
+  background-image: url('/sprites/form-elements-sprite.png');
+  background-repeat: no-repeat;
+  /* border: 1px solid black; */
+  height: 40em;
+}
+
+#checkbox {
+zoom: .5;
+background-position: -155px -235px;
+width: 425px;
+height: 200px;
+}
+
+#radio {
+  zoom: .5;
+  background-position: -575px -235px;
+  width: 425px;
+  height: 200px;
+  }
+
+#button1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin: .5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  background-color: lightgray;
+  border: none;
+  color: black;
+  font-weight: bold;
+}
+#button2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin: .5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  background-color: gray;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+
